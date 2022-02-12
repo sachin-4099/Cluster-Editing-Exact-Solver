@@ -13,7 +13,7 @@ Requirements
 -----------
 
  - A 64-bit Linux operating system
- - A modern, ![C++17](https://img.shields.io/badge/C++-17-blue.svg?style=flat)-ready compiler
+ - A modern, ![C++17](https://img.shields.io/badge/C++-17-blue.svg?style=flat) ready compiler
  - Gurobi ILP Solver (Version >= 9.5) ([download](https://www.gurobi.com/downloads/))
 
 Build Application
