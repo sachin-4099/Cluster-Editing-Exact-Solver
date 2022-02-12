@@ -1,4 +1,4 @@
-# CoRBeC++ - An Exact Solver for Cluster Editing Problem
+# CoRBeC++: An Exact Solver for Cluster Editing Problem
 
 The **Co**nflict **R**educed **Be**st-fit **C**luster is a software for
 solving the cluster editing problem. The cluster editing problem is to transform an input graph into a cluster graph (a disjoint union of complete graphs) by performing a minimum number of edge-modifications (addition or deletion). 
@@ -19,9 +19,9 @@ Requirements
 Build Application
 -----------
 
-1. Clone the repository:
+1. Clone the repository including submodules:
 
-   ```git clone https://github.com/sachin-4099/Cluster-Editing-Exact-Solver```
+   ```git clone --recursive https://github.com/sachin-4099/Cluster-Editing-Exact-Solver```
 2. Build the binary:
 
    If the Gurobi Version is 9.5 (make changes in the command depending on the version number):
