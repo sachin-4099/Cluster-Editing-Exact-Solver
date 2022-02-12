@@ -35,14 +35,14 @@ Reads a cluster editing instance (a graph file in `.gr` format) from stdin and p
 
 A usage example would be:
 
-    cat tests/exact011.gr | ./corbec++ > modifications.txt
+    cat testcases/exact011.gr | ./corbec++ > modifications.txt
 
 By default, the solver runs for `30 minutes` and the number of threads is set to `4`.
 
 The time limit of the solver can be adjusted via the `--time-limit` flag (in seconds):
 
-    cat tests/exact011.gr | ./corbec++ --time-limit=100 > modifications.txt
+    cat testcases/exact011.gr | ./corbec++ --time-limit=100 > modifications.txt
 
 The number of threads used by the solver can be adjusted via the `--num-threads` flag:
 
-    cat tests/exact011.gr | ./corbec++ --num-threads=56 > modifications.txt
+    cat testcases/exact011.gr | ./corbec++ --num-threads=56 > modifications.txt
