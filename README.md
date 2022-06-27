@@ -5,7 +5,7 @@ solving the cluster editing problem. The cluster editing problem is to transform
 This repository provides an exact solver for the cluster editing problem.
 For a detailed overview of the techniques used in our solver, please refer to the following resource:
 
-- Exact Solver ([PDF](exact_description))
+- Exact Solver ([PDF](https://drive.google.com/file/d/13kNCHCjMd2Re-3Lu8qbhf-xr2z5AewIx/view))
 
 ![cluster-editing](https://user-images.githubusercontent.com/9654047/119774492-88069e00-bec2-11eb-8800-c4abfcacb82f.png)
 
